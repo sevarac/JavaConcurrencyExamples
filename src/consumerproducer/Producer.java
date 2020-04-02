@@ -34,9 +34,9 @@ package consumerproducer;
 import java.util.Random;
 
 public class Producer implements Runnable {
-    private Drop drop;
+    private SharedData drop;
 
-    public Producer(Drop drop) {
+    public Producer(SharedData drop) {
         this.drop = drop;
     }
 

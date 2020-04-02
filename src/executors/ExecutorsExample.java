@@ -5,7 +5,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- *
+ * Ovaj primer pokazuje kako se kreira thread pool sa executor servisom.
+ * 
  * @author Zoran
  */
 public class ExecutorsExample {

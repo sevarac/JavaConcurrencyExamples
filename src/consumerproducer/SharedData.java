@@ -31,7 +31,7 @@ package consumerproducer;
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */ 
 
-public class Drop {
+public class SharedData {
     // Message sent from producer
     // to consumer.
     private String message;

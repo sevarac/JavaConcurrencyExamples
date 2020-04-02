@@ -1,0 +1,19 @@
+Zadatak 1.
+
+Napraviti program koji prebrojava slova u datom tekstu koristeci vise threadova.
+Mozete koristiti vise nezavisnoh Threadova za Runnable interfejsima, 
+thread pool sa executor servisom, 
+fork join ili paralelne streamove.
+
+Uradite na dva nacina, i uporedite performanse za razlicite velicine teksta i broj threadova.
+Za generisanj eteksta koristite klasu TekstGenerator
+Profajlirajte izvrsavanje.
+
+
+Zadatak 2.
+Sacuvajte slucajno generisani tekst u fajl. Napravite jedan thread koji cita neki zadati deo fajla i
+prosledjuje procitani tekst brojacima slova koji se nalaze u thread poolu.
+Koristiti consumer producer patern ili blocking queue.
+
+Eksperimentisite sa velicinom fajla od 1 MB, 10MB, 100MB, 1GB
+Kako broj threadova utice na vreme izvrsavanja? 

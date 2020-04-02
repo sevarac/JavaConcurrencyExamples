@@ -1,7 +1,8 @@
 package basics;
 
 /**
- * Thread safe counter using synchronized methods
+ * Thread safe shared counter using synchronized methods.
+ * Test how the example works without synchronized keyword.
  */
 public class SharedCounter {
     int value=0;

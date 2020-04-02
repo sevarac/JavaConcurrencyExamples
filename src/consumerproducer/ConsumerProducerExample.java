@@ -34,7 +34,7 @@ package consumerproducer;
 // https://docs.oracle.com/javase/tutorial/essential/concurrency/examples/ProducerConsumerExample.java
 public class ConsumerProducerExample {
     public static void main(String[] args) {
-        Drop drop = new Drop();
+        SharedData drop = new SharedData();
         (new Thread(new Producer(drop))).start();
         (new Thread(new Consumer(drop))).start();
     }
