@@ -1,7 +1,8 @@
 package basics;
 
 /**
- *
+ * Shared counter reader thread.
+ * 
  * @author Zoran
  */
 public class RunnableCounterReader implements Runnable {

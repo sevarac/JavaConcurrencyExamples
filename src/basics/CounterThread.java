@@ -4,8 +4,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
- * @author Zoran
+ * Kreiranje programske niti nasledjivanjem klase Thread i redefinisanjem metode run.
+ * Nit ispisuje brojeve od 1 do vrednosti limit koja se zadaje prilikom kreiranja niti,
+ * i pravi pauzu slucajne duzine izmdju dva ispisa.
+ * 
+ * @author Zoran Sevarac
  */
 public class CounterThread extends Thread {
 

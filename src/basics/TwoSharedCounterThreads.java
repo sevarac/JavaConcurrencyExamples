@@ -1,7 +1,7 @@
 package basics;
 
 /**
- * This example demonstrates rwo threads sharing the same data, and synchronization
+ * This example demonstrates two threads sharing the same data using synchronization mechanism
  * @author Zoran
  */
 public class TwoSharedCounterThreads {

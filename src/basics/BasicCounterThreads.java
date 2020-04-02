@@ -9,7 +9,7 @@ public class BasicCounterThreads {
         Thread thread = new CounterThread(10);
         thread.start();
 
-        System.out.println("Done!");
+        System.out.println("Glavni thread je nastavio da se izvrsava i vec je zavrsio!");
     }
 
 }

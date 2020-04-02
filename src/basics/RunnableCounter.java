@@ -1,5 +1,10 @@
 package basics;
 
+
+/**
+ * Klasa koja implementira Runnable interfejs koja ce se izvrsavati u okviru threada.
+ * @author Zoran
+ */
 public class RunnableCounter implements Runnable  {
 
     int counter, limit;

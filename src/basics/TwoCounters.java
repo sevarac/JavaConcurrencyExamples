@@ -1,13 +1,13 @@
 package basics;
 
 /**
- *This example demostrates order of execution of two threads
+ *This example demostrates order of execution (thread scheduling) of two threads counting up to 100.
  */
 public class TwoCounters {
     
     public static void main(String[] args) {
-        Thread t1 = new Thread(new RunnableCounter(100), "t1");
-        Thread t2 = new Thread(new RunnableCounter(100), "t2");
+        Thread t1 = new Thread(new RunnableCounter(100), "First Thread");
+        Thread t2 = new Thread(new RunnableCounter(100), "SECOND THREAD");
         
         t1.start();
         t2.start();
